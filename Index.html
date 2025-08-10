@@ -824,38 +824,254 @@
 </html> 
                     
                     <!-- PDF Tools Category -->
-                    <div class="category-card">
-                        <div class="category-img" style="background-color: #ffe0e9; color: #ff5d8f;">
-                            <i class="fas fa-file-pdf"></i>
-                        </div>
-                        <div class="category-content">
-                            <h3 class="category-title">PDF Tools</h3>
-                            <p class="category-desc">Merge, split, compress, and convert PDF files with ease.</p>
-                            <div class="category-tools">
-                                <span class="tool-tag">Merger</span>
-                                <span class="tool-tag">Splitter</span>
-                                <span class="tool-tag">Converter</span>
-                                <span class="tool-tag">Compressor</span>
-                            </div>
-                        </div>
-                    </div>
+                  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Tools Category Card</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #4361ee;
+            --primary-light: #e0e7ff;
+            --secondary: #3f37c9;
+            --accent: #ff5d8f;
+            --light: #f8f9fa;
+            --dark: #212529;
+            --gray: #6c757d;
+            --light-gray: #e9ecef;
+            --border-radius: 12px;
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.12);
+            --shadow-md: 0 4px 6px rgba(0,0,0,0.1);
+            --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+        }
+
+        .category-card {
+            background-color: white;
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            box-shadow: var(--shadow-sm);
+            transition: var(--transition);
+            display: flex;
+            flex-direction: column;
+            max-width: 320px;
+            margin: 1rem;
+        }
+
+        .category-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .category-link {
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            height: 100%;
+        }
+
+        .category-img {
+            height: 160px;
+            background-color: #ffe0e9;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ff5d8f;
+            font-size: 3rem;
+        }
+
+        .category-content {
+            padding: 1.5rem;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .category-title {
+            font-family: 'Arial', sans-serif;
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+            color: var(--dark);
+        }
+
+        .category-desc {
+            color: var(--gray);
+            margin-bottom: 1.5rem;
+            flex-grow: 1;
+        }
+
+        .category-tools {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: auto;
+        }
+
+        .tool-tag {
+            display: inline-block;
+            background-color: #ffebf1;
+            color: #ff5d8f;
+            padding: 0.25rem 0.75rem;
+            border-radius: 50px;
+            font-size: 0.8rem;
+            font-weight: 500;
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .tool-tag:hover {
+            background-color: #ff5d8f;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="category-card">
+        <a href="/Tool/ImgCompressorPro.html" class="category-link">
+            <div class="category-img">
+                <i class="fas fa-file-pdf"></i>
+            </div>
+            <div class="category-content">
+                <h3 class="category-title">PDF Tools</h3>
+                <p class="category-desc">Merge, split, compress, and convert PDF files with ease.</p>
+                <div class="category-tools">
+                    <a href="/pdf-tools/merger" class="tool-tag">Merger</a>
+                    <a href="/pdf-tools/splitter" class="tool-tag">Splitter</a>
+                    <a href="/pdf-tools/converter" class="tool-tag">Converter</a>
+                    <a href="/pdf-tools/compressor" class="tool-tag">Compressor</a>
+                </div>
+            </div>
+        </a>
+    </div>
+</body>
+</html>
                     
                     <!-- Document Tools Category -->
-                    <div class="category-card">
-                        <div class="category-img" style="background-color: #e0ffe7; color: #38b000;">
-                            <i class="fas fa-file-word"></i>
-                        </div>
-                        <div class="category-content">
-                            <h3 class="category-title">Document Tools</h3>
-                            <p class="category-desc">Convert between document formats and optimize your files.</p>
-                            <div class="category-tools">
-                                <span class="tool-tag">Word to PDF</span>
-                                <span class="tool-tag">PDF to Word</span>
-                                <span class="tool-tag">Excel Tools</span>
-                                <span class="tool-tag">PPT Tools</span>
-                            </div>
-                        </div>
-                    </div>
+                  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Tools Category Card</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #4361ee;
+            --primary-light: #e0e7ff;
+            --secondary: #3f37c9;
+            --success: #38b000;
+            --light: #f8f9fa;
+            --dark: #212529;
+            --gray: #6c757d;
+            --light-gray: #e9ecef;
+            --border-radius: 12px;
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.12);
+            --shadow-md: 0 4px 6px rgba(0,0,0,0.1);
+            --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+        }
+
+        .category-card {
+            background-color: white;
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            box-shadow: var(--shadow-sm);
+            transition: var(--transition);
+            display: flex;
+            flex-direction: column;
+            max-width: 320px;
+            margin: 1rem;
+        }
+
+        .category-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .category-link {
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            height: 100%;
+        }
+
+        .category-img {
+            height: 160px;
+            background-color: #e0ffe7;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #38b000;
+            font-size: 3rem;
+        }
+
+        .category-content {
+            padding: 1.5rem;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .category-title {
+            font-family: 'Arial', sans-serif;
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+            color: var(--dark);
+        }
+
+        .category-desc {
+            color: var(--gray);
+            margin-bottom: 1.5rem;
+            flex-grow: 1;
+        }
+
+        .category-tools {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: auto;
+        }
+
+        .tool-tag {
+            display: inline-block;
+            background-color: #e8f5e9;
+            color: #38b000;
+            padding: 0.25rem 0.75rem;
+            border-radius: 50px;
+            font-size: 0.8rem;
+            font-weight: 500;
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .tool-tag:hover {
+            background-color: #38b000;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="category-card">
+        <a href="/Tool/ImgCompressorPro.html" class="category-link">
+            <div class="category-img">
+                <i class="fas fa-file-word"></i>
+            </div>
+            <div class="category-content">
+                <h3 class="category-title">Document Tools</h3>
+                <p class="category-desc">Convert between document formats and optimize your files.</p>
+                <div class="category-tools">
+                    <a href="/document-tools/word-to-pdf" class="tool-tag">Word to PDF</a>
+                    <a href="/document-tools/pdf-to-word" class="tool-tag">PDF to Word</a>
+                    <a href="/document-tools/excel-tools" class="tool-tag">Excel Tools</a>
+                    <a href="/document-tools/ppt-tools" class="tool-tag">PPT Tools</a>
+                </div>
+            </div>
+        </a>
+    </div>
+</body>
+</html>
                     
                     <!-- Video Tools Category -->
                     <div class="category-card">
